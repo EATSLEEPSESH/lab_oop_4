@@ -1,0 +1,12 @@
+# ninja log v5
+1	1717	7539661038327297	CMakeFiles/lab_OOP_4.dir/main.cpp.obj	bdd50b048772b004
+1721	2011	7539661041253045	lab_OOP_4.exe	7a4d1f9130ec1abf
+47	7334	7539669010236989	Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	116dd658d8a75583
+18	7609	7539669014702474	Google_Tests/CMakeFiles/figure_tests.dir/tests/rectangle_tests.cpp.obj	c83740acd0c40f4c
+2	7611	7539669014716454	Google_Tests/CMakeFiles/figure_tests.dir/tests/square_tests.cpp.obj	9fc8128392644623
+26	9042	7539669028595204	Google_Tests/CMakeFiles/figure_tests.dir/tests/array_tests.cpp.obj	423b88397a9ab039
+11	10084	7539669039459323	Google_Tests/CMakeFiles/figure_tests.dir/tests/trapezoid_tests.cpp.obj	117b1e38788fecda
+33	28172	7539669220043674	Google_Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d6c610d02813d020
+28176	34408	7539669282710100	lib/libgtestd.a	8b5a040b078b0618
+34409	34555	7539669284160429	lib/libgtest_maind.a	9e80a854ac38e448
+34555	39950	7539669337976544	Google_Tests/figure_tests.exe	d2cef6bac0ed3dcb

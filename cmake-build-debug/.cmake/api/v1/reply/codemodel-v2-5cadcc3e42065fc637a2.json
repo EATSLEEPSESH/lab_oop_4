@@ -1,0 +1,217 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Google_Tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Google_Tests-Debug-765d34ae162c4eb74ab9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Google_Tests",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Google_Tests/lib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-Google_Tests.lib-Debug-59e2bf6f7cbe2571ee5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Google_Tests/lib"
+				},
+				{
+					"build" : "Google_Tests/lib/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-Google_Tests.lib.googlemock-Debug-65276f8a2db2482fb508.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Google_Tests/lib/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "Google_Tests/lib/googletest",
+					"jsonFile" : "directory-Google_Tests.lib.googletest-Debug-c6a620014324fab3d64b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "Google_Tests/lib/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lab_OOP_4",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "figure_tests::@8aa6a564bc1c372aae83",
+					"jsonFile" : "target-figure_tests-Debug-49efb7acf81a6036a803.json",
+					"name" : "figure_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@1184105581ce602fa18a",
+					"jsonFile" : "target-gmock-Debug-7471c6d586e653c31e72.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@1184105581ce602fa18a",
+					"jsonFile" : "target-gmock_main-Debug-d0e3304948738f12de4d.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@fd1cf812df30519405f0",
+					"jsonFile" : "target-gtest-Debug-3b0e23da1e5854b647af.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@fd1cf812df30519405f0",
+					"jsonFile" : "target-gtest_main-Debug-f785518157aa74a2cd82.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab_OOP_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab_OOP_4-Debug-a0dbea4aba821617fd39.json",
+					"name" : "lab_OOP_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/79063/CLionProjects/lab_OOP_4/cmake-build-debug",
+		"source" : "C:/Users/79063/CLionProjects/lab_OOP_4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
